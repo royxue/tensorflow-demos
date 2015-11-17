@@ -34,4 +34,10 @@ pip-log.txt
 pip-delete-this-directory.txt
 
 # Dataset
-mnist/minist_data/
+mnist/mnist_data/
+
+# Tensorboard Logs
+mnist/logs/
+
+# Test script
+test.py
