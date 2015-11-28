@@ -9,7 +9,7 @@ def main():
     # Create TensorFlow Session
     sess = tf.InteractiveSession()
 
-    # Placeholder for data, input and output, None will be defined later by
+    # Placeholder for data, input and label, None will be defined later by
     # the batch size
     x = tf.placeholder('float', shape=[None, 784])
 
